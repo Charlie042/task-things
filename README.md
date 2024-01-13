@@ -17,13 +17,13 @@ Version control or Source control is the practise of tracking and managing chang
 
 * Git pull on the other hand is used to download new branches and objects from the remote respository and automatically updates the working directory or merge changes.
 
-# Explain in simple terms git rebase and the command for it
+### Explain in simple terms git rebase and the command for it
 * Git rebase is a Git command that helps you incorporate changes from one branch into another by moving or combining the commits in a more linear and neat way.
 
 * Command for it is as follows
 git rebase [-i | --interactive] [ options ] [--exec cmd] [--onto newbase | --keep-base] [upstream [branch]]
 
-# Explain in simple terms git cherry-pick and the command for it 
+### Explain in simple terms git cherry-pick and the command for it 
 Git cherry-pick is a Git command that allows you to pick or copy a specific commit from one branch and apply it onto another branch.
 
 * command for it is as follows: git cherry-pick<commit-hash>
